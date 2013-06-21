@@ -1,5 +1,7 @@
 # Mozart - Cache
 
+Version Master 0.1.0 - [![Build Status](https://travis-ci.org/FaizalPribadi/Cache.png?branch=master)](https://travis-ci.org/FaizalPribadi/Cache)
+
 installation with composer
 ==========================
 ```php
