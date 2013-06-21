@@ -1,12 +1,10 @@
 # Mozart - Cache
 
-Version Master 0.1.0 - [![Build Status](https://travis-ci.org/FaizalPribadi/Cache.png?branch=master)](https://travis-ci.org/FaizalPribadi/Cache)
-
 installation with composer
 ==========================
 ```php
 $ curl -s http://getcomposer.org/installer | php
-$ php composer.phar require mozart/cache   // next typing "dev-master"
+$ php composer.phar require mozart/cache 	// next typing "dev-master"
 ```
 
 installation with git
@@ -47,7 +45,6 @@ usage : cache support with event
 use Mozart\Library\Event\EventDispatcher;
 use Mozart\Library\Cache\Event\DropCacheEvent;
 use Mozart\Library\Cache\Event\CacheStatusEvent;
-use Symfony\Component\Console\Event\ConsoleTerminateEvent;
 
 class DropListener
 {
