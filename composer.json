@@ -1,0 +1,30 @@
+{
+    "name": "mozart/cache",
+    "type": "library",
+    "description": "Mozart Class Loader",
+    "keywords": ["cache", "cache-event"],
+    "homepage": "http://faizalpribadi.github/Cache",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Faizal Pribadi",
+            "email": "faizal_pribadi@aol.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.10"
+    },
+    "require-dev": {
+        "mozart/event-dispatcher": "0.1.3.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "Mozart\\Library\\Cache\\": "" }
+    },
+    "target-dir": "Mozart/Library/Cache",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0-dev"
+        }
+    }
+}
