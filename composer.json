@@ -1,7 +1,7 @@
 {
     "name": "mozart/cache",
     "type": "library",
-    "description": "Mozart Class Loader",
+    "description": "Mozart Cache Providers",
     "keywords": ["cache", "cache-event"],
     "homepage": "http://faizalpribadi.github/Cache",
     "license": "MIT",
