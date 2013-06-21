@@ -13,18 +13,30 @@ namespace Mozart\Library\Cache;
 use Mozart\Library\Cache\Driver\CacheDriverInterface;
 
 /**
- * Class $CLASS
+ * Interface CacheInterface
  *
- * @package
+ * @package Mozart\Library\Cache
  * @author  Faizal Pribadi  <faizal_pribadi@aol.com>
  */
 interface CacheInterface
 {
     /**
-     * @param $driver
+     * Set the cache driver
+     *
+     * @param CacheDriverInterface $driver
+     *
      * @return mixed
+     *
+     * @api
      */
     public function setCacheDriver(CacheDriverInterface $driver);
 
+    /**
+     * Get the returned cache driver if set the cache driver
+     *
+     * @return CacheDriverInterface
+     *
+     * @api
+     */
     public function getCacheDriver();
 }
