@@ -16,7 +16,7 @@ use Mozart\Library\Event\Event;
 /**
  * Class CacheEvent
  *
- * @package Mozart\Library\Event
+ * @package Mozart\Library\Cache\Event
  * @author  Faizal Pribadi  <faizal_pribadi@aol.com>
  */
 class CacheEvent extends Event
