@@ -31,9 +31,9 @@ class DropCacheEvent extends CacheEvent
      *
      * @param DropCache $cache
      */
-    public function __construct(DropCache $cache = null)
+    public function __construct(DropCache $cache)
     {
-        $this->cache = $cache ? : new DropCache();
+        $this->cache = $cache;
     }
 
     /**
