@@ -88,7 +88,7 @@ $listener = new DropCacheListenr();
 var_dump($listener->send());
 ```
 
-_For full details usage, see [Docs](https://github.com/FaizalPribadi/Cache/Docs/Documentation.md)_
+_For full details usage, see [Docs](https://github.com/FaizalPribadi/Cache/blob/master/Docs/Documentation.md)_
 
 You're own customize
 ====================
