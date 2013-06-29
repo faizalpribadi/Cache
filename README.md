@@ -1,3 +1,5 @@
+[![Latest Stable Version](https://poser.pugx.org/mozart/cache/v/stable.png)](https://packagist.org/packages/mozart/cache)
+
 # Mozart - Cache
 
 installation with composer
